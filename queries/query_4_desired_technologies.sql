@@ -40,4 +40,4 @@ FROM
 WHERE 
     rank <= 3
 ORDER BY 
-    rank;
+    rank

@@ -13,4 +13,4 @@ JOIN
 WHERE 
     f.ConvertedCompYearly IS NOT NULL
 ORDER BY 
-    c.country_name, f.ConvertedCompYearly;
+    c.country_name, f.ConvertedCompYearly

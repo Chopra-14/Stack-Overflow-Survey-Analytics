@@ -12,4 +12,4 @@ WHERE
     f.YearsCode IS NOT NULL 
     AND f.ConvertedCompYearly IS NOT NULL
 ORDER BY 
-    f.YearsCode, compensation_rank;
+    f.YearsCode, compensation_rank

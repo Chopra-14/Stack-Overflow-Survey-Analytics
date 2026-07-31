@@ -44,4 +44,4 @@ FROM
 WHERE 
     rank <= 5
 ORDER BY 
-    country_name, rank;
+    country_name, rank

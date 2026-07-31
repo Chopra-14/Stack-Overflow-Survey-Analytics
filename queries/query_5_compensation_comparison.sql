@@ -15,4 +15,4 @@ JOIN
 WHERE 
     f.ConvertedCompYearly IS NOT NULL
 ORDER BY 
-    c.country_name, dt.dev_type_name, f.ConvertedCompYearly DESC;
+    c.country_name, dt.dev_type_name, f.ConvertedCompYearly DESC

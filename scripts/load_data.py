@@ -6,8 +6,8 @@ import os
 DB_USER = os.getenv("POSTGRES_USER", "your_user")
 DB_PASS = os.getenv("POSTGRES_PASSWORD", "your_password")
 DB_NAME = os.getenv("POSTGRES_DB", "your_db")
-DB_HOST = os.getenv("POSTGRES_HOST", "localhost")
-DB_PORT = os.getenv("POSTGRES_PORT", "5432")
+DB_HOST = os.getenv("POSTGRES_HOST", "127.0.0.1")
+DB_PORT = os.getenv("POSTGRES_PORT", "5433")
 
 def get_db_connection():
     return psycopg2.connect(
